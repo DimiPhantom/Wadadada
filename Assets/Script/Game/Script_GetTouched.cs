@@ -41,9 +41,9 @@ public class Script_GetTouched : MonoBehaviour {
 		Objects [0].GetComponent<Animator> ().Play (0, 0, 0.1f);
 		Objects [1].GetComponent<Animator> ().Play (0, 0, 0.4f);
 		Objects [2].GetComponent<Animator> ().Play (0, 0, 0.76666f);
-		Objects [3].GetComponent<Animator> ().Play (0, 0, 0.1f);
-		Objects [4].GetComponent<Animator> ().Play (0, 0, 0.4f);
-		Objects [5].GetComponent<Animator> ().Play (0, 0, 0.76666f);
+		Objects [3].GetComponent<Animator> ().Play (0, 0, 0.2f);
+		Objects [4].GetComponent<Animator> ().Play (0, 0, 0.5f);
+		Objects [5].GetComponent<Animator> ().Play (0, 0, 0.86666f);
 		foreach (GameObject i in Objects) {
 			i.GetComponent<Animator> ().StartPlayback ();
 		}

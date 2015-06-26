@@ -16,7 +16,7 @@ public class Script_Result : MonoBehaviour {
 		OK.onClick.AddListener (Pressed);
 		yield return new WaitForSeconds (0.01f);
 
-		Script_Variables.money += Script_Variables.distance / 8;
+		Script_Variables.money += Script_Variables.distance / 10;
 
 		if (Script_Variables.item [3]) {
 			Script_Variables.exp += Script_Variables.distance / 4;

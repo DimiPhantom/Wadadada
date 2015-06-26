@@ -16,4 +16,5 @@ public class Script_Timer : MonoBehaviour {
 			yield return new WaitForSeconds(1);
 		}
 	}
+
 }
